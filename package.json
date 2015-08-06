@@ -1,5 +1,5 @@
 {
-  "name": "react-sandbox with gulp, webpack and mocha chai",
+  "name": "react-sandbox",
   "version": "1.0.0",
   "description": "React Sandbox with Gulp, Webpack and Mocha Chai",
   "private": true,
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:agreco/react-sandbox.git"
   },
   "dependencies": {
     "babel": "^5.1.13",
