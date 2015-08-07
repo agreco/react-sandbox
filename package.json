@@ -1,7 +1,7 @@
 {
   "name": "react-sandbox",
   "version": "1.0.0",
-  "description": "React Sandbox with Gulp, Webpack and Mocha Chai",
+  "description": "React/JSX Sandbox with Gulp, Webpack and Mocha Chai",
   "private": true,
   "main": "src/server/index.js",
   "engines": {

@@ -1,5 +1,5 @@
-# React Sandbox with Gulp, Webpack and Mocha Chai
-A React sandbox for hacking and testing React Apps with Gulp, Webpack and Mocha Chai
+# React/JSX Sandbox with Gulp, Webpack and Mocha Chai
+A React/JSX sandbox for hacking and testing React Apps with Gulp, Webpack and Mocha Chai
 
 ## Getting started
 Run npm start from the command line to fire up a server, then navigate to http://localhost:8080
