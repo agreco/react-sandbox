@@ -2,10 +2,8 @@
 // Require main dependencies
 var del = require('del'),
     gulp = require('gulp'),
-    jsx = require('gulp-jsx'),
     mocha = require('gulp-mocha'),
-    open = require('gulp-open'),
-    react = require('gulp-react');
+    open = require('gulp-open');
 
 gulp.task('clean', function (next) {
     del('dest', function () {
@@ -44,7 +42,7 @@ gulp.task('test', function () {
         .pipe(mocha({
             reporter: 'spec',
             recursive: true,
-            require: ['./test/utils/setup.js'],
+            require: ['./test/setup.js'],
             compilers: 'js:babel/register'
         }));
 });
