@@ -19,7 +19,7 @@ describe('SomeComponent', function () {
         expect(TestUtils.isCompositeComponent(avatar)).to.be.ok;
     });
 
-    it.only('should build the layout from an array of objects passed as prop.', function () {
+    it('should build the layout from an array of objects passed as prop.', function () {
        var avatar = TestUtils.renderIntoDocument(<Avatar username="agreco1379" />);
         expect(TestUtils.isCompositeComponent(avatar)).to.be.ok;
     });
