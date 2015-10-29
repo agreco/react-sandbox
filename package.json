@@ -26,15 +26,17 @@
     "gulp-react": "*",
     "gulp-uglify": "*",
     "gulp-util": "*",
+    "gulp-webpack": "*",
     "jquery": "*",
     "jsdom": "*",
     "jsx-loader": "*",
     "mocha": "*",
     "nock": "*",
     "react": "*",
+    "react-addons-test-utils": "*",
+    "react-dom": "*",
     "socket.io": "*",
     "webpack": "*",
-    "webpack-stream": "*",
     "xmlhttprequest": "*"
   }
 }
