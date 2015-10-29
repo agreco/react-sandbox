@@ -11,7 +11,7 @@ gulp.task('clean', function (next) {
     });
 });
 
-gulp.task('copyHTML', ['clean'], function () {
+gulp.task('copyHTML', function () {
     return gulp.src('src/client/**/*.html')
         .pipe(gulp.dest('dest/client/'));
 });
