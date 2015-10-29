@@ -2,15 +2,15 @@
 var path = require('path');
 
 module.exports = {
-    entry: './src/client/js/index.jsx',
+    entry: './src/client/js/index.js',
     output: {
         filename: 'index.js'
     },
     module: {
         loaders: [
             {
-                test: /\.jsx$/, //tell webpack to use jsx-loader for all *.jsx files
-                loader: 'jsx-loader?insertPragma=React.DOM&harmony'
+                test: /\.js$/, //tell webpack to use jsx-loader for all *.jsx files
+                loader: 'jsx-loader'
             }
         ]
     },

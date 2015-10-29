@@ -1,8 +1,7 @@
 
-var React = require('react/addons'),
-    $ = require('jquery'),
-    ProfilePic = require(__dirname + '/ProfilePic.jsx'),
-    ProfileLink = require(__dirname + '/ProfileLink.jsx'),
+var React = require('react'),
+    ProfilePic = require(__dirname + '/ProfilePic.js'),
+    ProfileLink = require(__dirname + '/ProfileLink.js'),
     Avatar = React.createClass({
         render: function() {
             return (
